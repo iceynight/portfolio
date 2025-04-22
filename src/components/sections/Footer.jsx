@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -27,11 +27,11 @@ const FooterWrapper = styled.div`
   color: ${({ theme }) => theme.text_primary};
 `;
 
-const Logo = styled.div`
-  font-weight: 600;
-  font-size: 20px;
-  color: ${({ theme }) => theme.primary};
-`;
+// const Logo = styled.div`
+//   font-weight: 600;
+//   font-size: 20px;
+//   color: ${({ theme }) => theme.primary};
+// `;
 
 const Nav = styled.nav`
   width: 100%;
@@ -50,18 +50,18 @@ const Nav = styled.nav`
   }
 `;
 
-const NavLink = styled.a`
-  color: ${({ theme }) => theme.text_primary};
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: color 0.2s ease-in-out;
-  &:hover {
-    color: ${({ theme }) => theme.primary};
-  }
-  @media (max-width: 768px) {
-    font-size: 1rem;
-  }
-`;
+// const NavLink = styled.a`
+//   color: ${({ theme }) => theme.text_primary};
+//   text-decoration: none;
+//   font-size: 1.2rem;
+//   transition: color 0.2s ease-in-out;
+//   &:hover {
+//     color: ${({ theme }) => theme.primary};
+//   }
+//   @media (max-width: 768px) {
+//     font-size: 1rem;
+//   }
+// `;
 
 const SocialMediaIcons = styled.div`
   display: flex;
