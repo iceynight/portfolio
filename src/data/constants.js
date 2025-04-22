@@ -145,7 +145,7 @@ export const experiences = [
     img: "https://www.uxdt.nic.in/wp-content/uploads/2020/06/nic-logo-nic-logo-1-bilingual-white-1-01.jpg?x76268",
     role: "Full Stack Developer (Intern)",
     company: "National Informatics Centre, Meghalaya",
-    date: "Jan 2025 - June 2025",
+    date: "Jan 2025 - Present",
     desc: "Responsible for the development and maintenance of the Meghalaya State Commission for Protection of Child Rights website and app, including the creation of comprehensive database systems and administrative dashboards for tracking of child protection cases reported by District Child Protection Units (DCPUs), law enforcement agencies, and judicial bodies throughout Meghalaya.",
     skills: [
       "ReactJS",
