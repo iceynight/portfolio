@@ -33,22 +33,22 @@ const FooterWrapper = styled.div`
 //   color: ${({ theme }) => theme.primary};
 // `;
 
-const Nav = styled.nav`
-  width: 100%;
-  max-width: 800px;
-  margin-top: 0.5rem;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  justify-content: center;
-  @media (max-width: 768px) {
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    text-align: center;
-    font-size: 12px;
-  }
-`;
+// const Nav = styled.nav`
+//   width: 100%;
+//   max-width: 800px;
+//   margin-top: 0.5rem;
+//   display: flex;
+//   flex-direction: row;
+//   gap: 2rem;
+//   justify-content: center;
+//   @media (max-width: 768px) {
+//     flex-wrap: wrap;
+//     gap: 1rem;
+//     justify-content: center;
+//     text-align: center;
+//     font-size: 12px;
+//   }
+// `;
 
 // const NavLink = styled.a`
 //   color: ${({ theme }) => theme.text_primary};
