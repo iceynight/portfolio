@@ -1,13 +1,14 @@
 export const Bio = {
   name: "Debashis Boruah",
   roles: [
+    "Cloud Engineer",
     "Full Stack Developer",
-    // "Android Developer",
+    "Android Developer",
     // "UI/UX Designer",
     // "Programmer",
   ],
   description:
-    "I am a motivated and versatile developer with a passion for full-stack development, always eager to take on new challenges.I thrive under pressure and adapt quickly to changing environments. As a dedicated team member, I contribute effectively to collaborative projects while maintaining a keen focus on delivering high-quality results. I am ready to make meaningful contributions to innovative projects and achieve great things in the tech industry.",
+    "I am a motivated and versatile developer with a passion for cloud security and full-stack development, always eager to take on new challenges. I thrive under pressure and adapt quickly to changing environments. As a dedicated team member, I contribute effectively to collaborative projects while maintaining a keen focus on delivering high-quality results. I am ready to make meaningful contributions to innovative projects and achieve great things in the tech industry.",
  
   resume:
     "https://drive.google.com/file/d/1auGppWpgs2chLyOUKgwfoFmq_XTNCDoe/view?usp=drive_link",
@@ -122,30 +123,33 @@ export const experiences = [
   //   ],
   //   doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   // },
-  // {
-  //   id: 0,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-  //   role: "Frontend Engineer Intern",
-  //   company: "Neurobit",
-  //   date: "June 2023 - Present",
-  //   desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
-  //   skills: [
-  //     "ReactJS",
-  //     "Redux",
-  //     "NodeJs",
-  //     "Material UI",
-  //     "HTML",
-  //     "CSS",
-  //     "JavaScript",
-  //   ],
-  //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-  // },
+ {
+  id: 0,
+  img: "https://www.uxdt.nic.in/wp-content/uploads/2020/06/nic-logo-nic-logo-1-bilingual-white-1-01.jpg?x76268",
+  role: "Cloud Administrator",
+  company: "National Informatics Centre, Meghalaya",
+  date: "June 2025 - Present",
+  desc: "Managing and monitoring cloud infrastructure to ensure optimal performance, security, and availability.",
+  skills: [
+    "AWS",
+    "Azure",
+    "Docker",
+    "Kubernetes",
+    "Linux",
+    "Networking",
+
+    "Monitoring & Logging",
+    "Security Best Practices"
+  ],
+  // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+},
+
   {
     id: 1,
     img: "https://www.uxdt.nic.in/wp-content/uploads/2020/06/nic-logo-nic-logo-1-bilingual-white-1-01.jpg?x76268",
     role: "Full Stack Developer (Intern)",
     company: "National Informatics Centre, Meghalaya",
-    date: "Jan 2025 - Present",
+    date: "Jan 2025 - May 2025",
     desc: "Responsible for the development and maintenance of the Meghalaya State Commission for Protection of Child Rights website and app, including the creation of comprehensive database systems and administrative dashboards for tracking of child protection cases reported by District Child Protection Units (DCPUs), law enforcement agencies, and judicial bodies throughout Meghalaya.",
     skills: [
       "ReactJS",
@@ -242,49 +246,49 @@ export const education = [
   },
 ];
 
-export const projects = [
-  {
-    id: 0,
-    title: "Cafe Bayleaf",
-    date: "Apr 2022",
-    description: "Developed a comprehensive web-based ordering platform for a café that enables customers to browse menu items and place orders online while providing restaurant staff with order management capabilities. Built using HTML, CSS, JavaScript, PHP, and SQL to create a robust and efficient system.",
-        image:"https://github.com/iceynight/cafebayleaf/blob/main/bayleaf.png?raw=true",
-    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "Php", "MySQL"],
-    category: "web app",
-    github: "https://github.com/iceynight/cafebayleaf",
-    webapp: "https://cafebayleaf.netlify.app/",
-  },
-  {
-    id: 1,
-    title: "EduCare",
-    date: "Jan 2023",
-    description:
-      "Developed a e-learning platform for a coaching center using HTML, CSS & JavaScript. The system enables instructors to upload and manage course videos and educational content, while students can browse, select, and access their desired courses. Implemented a tiered access model where premium content requires payment, alongside free educational resources. Created a responsive interface ensuring seamless user experience across all devices. The platform features secure user authentication, personalized dashboards for both educators and students, and an integrated payment system for premium course purchases.",
-       image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootstrap",
-      "MongoDb",
-    ],
-    category: "web app",
-    github: "",
-    webapp: "",
-  },
+// export const projects = [
+//   {
+//     id: 0,
+//     title: "Cafe Bayleaf",
+//     date: "Apr 2022",
+//     description: "Developed a comprehensive web-based ordering platform for a café that enables customers to browse menu items and place orders online while providing restaurant staff with order management capabilities. Built using HTML, CSS, JavaScript, PHP, and SQL to create a robust and efficient system.",
+//         image:"https://github.com/iceynight/cafebayleaf/blob/main/bayleaf.png?raw=true",
+//     tags: ["HTML", "CSS", "Javascript", "Bootstrap", "Php", "MySQL"],
+//     category: "web app",
+//     github: "https://github.com/iceynight/cafebayleaf",
+//     webapp: "https://cafebayleaf.netlify.app/",
+//   },
+//   {
+//     id: 1,
+//     title: "EduCare",
+//     date: "Jan 2023",
+//     description:
+//       "Developed a e-learning platform for a coaching center using HTML, CSS & JavaScript. The system enables instructors to upload and manage course videos and educational content, while students can browse, select, and access their desired courses. Implemented a tiered access model where premium content requires payment, alongside free educational resources. Created a responsive interface ensuring seamless user experience across all devices. The platform features secure user authentication, personalized dashboards for both educators and students, and an integrated payment system for premium course purchases.",
+//        image:
+//       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+//     tags: [
+//       "HTML",
+//       "CSS",
+//       "JavaScript",
+//       "Bootstrap",
+//       "MongoDb",
+//     ],
+//     category: "web app",
+//     github: "",
+//     webapp: "",
+//   },
   
-  {
-    id: 8,
-    title: "Gesture Controlled Robotic Arm Using Computer Vision",
-    date: "May 2023",
-    description:
-      "A robotic manipulation system that interprets hand gestures captured by an external camera through computer vision techniques. The system employs the hand_recognition library in conjunction with OpenCV to accurately detect and classify various hand gestures. An Arduino microcontroller serves as the processing unit, interpreting the recognized gestures and translating them into precise mechanical movements of the robotic arm.",
-    image:
-      "https://lh3.googleusercontent.com/proxy/YiwUa0zChb_pk7Qc-6NYbjzLJbaig-n5vrsO0ywhsbRBAxUmS9gftP2-08sW8fvag5KMnMzw8XFBarUVVPPYi52MlNZ_2CkmFpY",
-    tags: ["Python", "Arduino", "OpenCV", "CV Zone"],
-    category: "machine learning",
-    github: "https://github.com/iceynight/Gesture-Controlled-Robotic-Arm",
-    webapp: "https://github.com/iceynight/Gesture-Controlled-Robotic-Arm",
-  },
-];
+//   {
+//     id: 8,
+//     title: "Gesture Controlled Robotic Arm Using Computer Vision",
+//     date: "May 2023",
+//     description:
+//       "A robotic manipulation system that interprets hand gestures captured by an external camera through computer vision techniques. The system employs the hand_recognition library in conjunction with OpenCV to accurately detect and classify various hand gestures. An Arduino microcontroller serves as the processing unit, interpreting the recognized gestures and translating them into precise mechanical movements of the robotic arm.",
+//     image:
+//       "https://lh3.googleusercontent.com/proxy/YiwUa0zChb_pk7Qc-6NYbjzLJbaig-n5vrsO0ywhsbRBAxUmS9gftP2-08sW8fvag5KMnMzw8XFBarUVVPPYi52MlNZ_2CkmFpY",
+//     tags: ["Python", "Arduino", "OpenCV", "CV Zone"],
+//     category: "machine learning",
+//     github: "https://github.com/iceynight/Gesture-Controlled-Robotic-Arm",
+//     webapp: "https://github.com/iceynight/Gesture-Controlled-Robotic-Arm",
+//   },
+// ];

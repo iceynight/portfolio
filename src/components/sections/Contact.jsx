@@ -148,25 +148,25 @@ const Contact = () => {
       );
   };
 
-  // return (
-  //   // <Container>
-  //   //   <Wrapper>
-  //   //     {/* <EarthCanvas /> */}
-  //   //     <Title>Contact</Title>
-  //   //     <Desc>
+  return (
+    <Container>
+      <Wrapper>
+        {/* <EarthCanvas /> */}
+       <Title>Contact</Title>
+        <Desc>
          
-  //   //     </Desc>
-  //   //     {/* <ContactForm onSubmit={handleSubmit}>
-  //   //       <ContactTitle>Email Me</ContactTitle>
-  //   //       <ContactInput placeholder="Your Email" name="from_email" />
-  //   //       <ContactInput placeholder="Your Name" name="from_name" />
-  //   //       <ContactInput placeholder="Subject" name="subject" />
-  //   //       <ContactInputMessage placeholder="Message" name="message" rows={4} />
-  //   //       <ContactButton type="submit" value="Send" />
-  //   //     </ContactForm> */}
-  //   //   </Wrapper>
-  //   // </Container>
-  // );
+        </Desc>
+        <ContactForm onSubmit={handleSubmit}>
+          <ContactTitle>Email Me</ContactTitle>
+          <ContactInput placeholder="Your Email" name="from_email" />
+          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+          <ContactButton type="submit" value="Send" />
+        </ContactForm>
+      </Wrapper>
+    </Container>
+  );
 };
 
 export default Contact;
