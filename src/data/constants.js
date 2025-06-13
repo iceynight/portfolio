@@ -49,6 +49,30 @@ export const skills = [
     
     ],
   },
+   {
+    title: "Cloud",
+    skills: [
+     {
+    name: "AWS",
+    image: "https://web.battlefin.com/hs-fs/hubfs/aws-white.png?width=1200&height=1200&name=aws-white.png",
+  },
+  {
+    name: "Azure",
+    image:
+      "https://swimburger.net/media/fbqnp2ie/azure.svg",
+  },
+  {
+    name: "Kubernetes",
+    image:
+      "https://www.logo.wine/a/logo/Kubernetes/Kubernetes-Logo.wine.svg",
+  },
+  {
+    name: "Docker",
+    image:
+      "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png",
+  },
+    ],
+  },
   {
     title: "Database",
     skills: [
@@ -56,11 +80,11 @@ export const skills = [
     name: "Postgresql",
     image: "https://www.postgresql.org/media/img/about/press/elephant.png",
   },
-  {
-    name: "MySQL",
-    image:
-      "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-  },
+  // {
+  //   name: "MySQL",
+  //   image:
+  //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+  // },
   {
     name: "MongoDB",
     image:
@@ -68,6 +92,7 @@ export const skills = [
   },
     ],
   },
+ 
   {
     title: "Backend",
     skills: [
@@ -132,12 +157,9 @@ export const experiences = [
   desc: "Managing and monitoring cloud infrastructure to ensure optimal performance, security, and availability.",
   skills: [
     "AWS",
-    "Azure",
     "Docker",
     "Kubernetes",
     "Linux",
-    "Networking",
-
     "Monitoring & Logging",
     "Security Best Practices"
   ],
@@ -228,7 +250,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-1/359486509_609803244610108_1412174998596369035_n.jpg?stp=c0.0.228.228a_dst-jpg_s200x200_tt6&_nc_cat=102&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=F4UgnAe-PusQ7kNvgGiNItj&_nc_oc=AdlCZZCX9BUOUiFabEDRt1jv4yKwO202ly1NwGJBR1P3-LoxuRjJfIdSncIU6X50ImA&_nc_zt=24&_nc_ht=scontent.fmaa8-1.fna&_nc_gid=YkBi87dWzlLKB6wzhOqwXw&oh=00_AYGV0dQJrXwuOjH7ocmJNduo0wFRBFe1buQ73dGApB0chQ&oe=67F4119C",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmqHOzTWT-l7aA_cRgEqVKNuXqbtNEOlynmA&s",
     school: "Concept Junior College",
     date: "May 2017 - Mar 2019",
     grade: " 67%",
