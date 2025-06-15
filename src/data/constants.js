@@ -17,6 +17,7 @@ export const Bio = {
   insta: "https://www.instagram.com/borruah/",
 };
 
+
 export const skills = [
   {
     title: "Frontend",
