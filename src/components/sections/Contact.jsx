@@ -157,7 +157,7 @@ const Contact = () => {
          
         </Desc>
         <ContactForm onSubmit={handleSubmit}>
-          <ContactTitle>Email Me</ContactTitle>
+          <ContactTitle>Email Me (under development)</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
