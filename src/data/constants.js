@@ -11,7 +11,7 @@ export const Bio = {
     "I am a motivated and versatile developer with a passion for cloud security and full-stack development, always eager to take on new challenges. I thrive under pressure and adapt quickly to changing environments. As a dedicated team member, I contribute effectively to collaborative projects while maintaining a keen focus on delivering high-quality results. I am ready to make meaningful contributions to innovative projects and achieve great things in the tech industry.",
  
   resume:
-    "https://drive.google.com/file/d/1auGppWpgs2chLyOUKgwfoFmq_XTNCDoe/view?usp=drive_link",
+    "https://drive.google.com/file/d/15u73t9wWrELhlHOwByGS1pwkIH1mkoM7/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/debashis-boruah-194210234/",
   github: "https://github.com/iceynight",
   insta: "https://www.instagram.com/borruah/",
